@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main {
+  background: #f8f8f8;
+  height: 900px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 0 240px 168px 133px;
+}
+
+.desc {
+  font-family: League Spartan;
+}
+
+.desc h6 {
+  padding-top: 104px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 44.64px;
+  text-align: left;
+}
+
+.desc h2 {
+  padding-top: 53px;
+  font-size: 250px;
+  font-weight: 300;
+  line-height: 230px;
+  text-align: left;
+}
+
+.desc p {
+  padding-top: 43px;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 49.6px;
+  text-align: left;
+}
+
+.buttons {
+  padding-top: 61px;
+}
+
+button {
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.buttons .buy {
+  width: 278px;
+  height: 82px;
+  background: #161515;
+  border: none;
+  color: #ffffff;
+}
+
+.buttons .price {
+  width: 143px;
+  height: 82px;
+  background: #ffffff;
+  box-shadow: 0px 0px 28px 0px #d6d6d640;
+  border: none;
+  color: #272727;
+}
+
+/* section-------------------------------- */
+.container-small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-titel {
+  margin-top: 43px;
+}
+
+.section-titel h6 {
+  font-family: League Spartan;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  color: #000000;
+  height: 41px;
+}
+
+.section-titel h2 {
+  font-family: League Spartan;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 81px;
+  text-align: center;
+  height: 62px;
+}
+
+.image {
+  background-color: #f8f8f8;
+  width: 417px;
+  height: 630px;
+  margin: 84px auto 67px;
+  position: relative;
+}
+
+.product-one img {
+  position: absolute;
+  top: 110px;
+  left: 71px;
+}
+
+.product-two .image {
+  width: 496px;
+}
+
+.product-two img {
+  position: absolute;
+  top: 65px;
+  left: 0;
+}
+
+.product-desc h6 {
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 17px;
+}
+
+.product-desc {
+  width: 531px;
+  height: 242px;
+  align-items: center;
+}
+
+.product-desc p {
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 49.6px;
+  text-align: center;
+}
+
+/* footer------------------------ */
+
+.about {
+  margin-top: 59px;
+  margin-bottom: 142px;
+}
+
+.about h3 {
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 59.52px;
+  text-align: center;
+}
+
+.about p {
+  width: 515px;
+  padding-top: 49px;
+  font-family: League Spartan;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 40.8px;
+  text-align: center;
+}
+
+.line {
+  margin: 0 auto;
+  border: 1px solid #707070;
+  width: 178.03px;
+}
+
+a{
+  color: rgb(160, 123, 92);
+  text-decoration: underline;
+}
